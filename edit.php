@@ -61,7 +61,7 @@ if (isset($_POST['update'])) {
 
 </head>
 
-<body style="background-color: #FFB6b6;">
+<body style="background-color: #FFF5F8;">
 
     <div class="container">
 
