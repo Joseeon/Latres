@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 32px 64px;
+    border-radius: 16px;
+}
+
+.btn-primary {
+    background-color: purple;
+    padding: 8px 16px;
+    width: 100%;
+    margin: 32px 0;
+}
+
+.form-floating {
+
+    outline: 1px solid purple;
+}
+
+.container {
+    padding: 32px;
+
+}
+
+.search-box {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.search-box input,
+.search-box select {
+    background-color: #FFB6b6;
+    padding: 8px;
+    margin-right: 8px;
+    border: 3px solid purple;
+    border-radius: 4px;
+    color: purple;
+}
+
+.search-box input {
+    width: 100%;
+}
+
+.search-box button {
+    background-color: #FFB6b6;
+    color: purple;
+    padding: 8px 16px;
+    border: purple solid 3px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.lab-container {
+    display: flex;
+    margin-bottom: 24px;
+    gap: 16px;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    background-color: purple;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 3px solid #FFB6b6;
+
+}
+
+.jam {
+    background-color: purple;
+    border: 3px solid #FFB6b6;
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+
+    margin-bottom: 8px;
+}
+
+.booking-card {
+    width: 300px;
+    background-color: purple;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 3px solid #FFB6b6;
+}
+
+.btn-cancel {
+
+    display: inline-block;
+    background-color: purple;
+    color: #ffb6b6;
+    padding: 8px 16px;
+    border: #ffb6b6 solid 3px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-submit {
+    display: inline-block;
+    background-color: #ffb6b6;
+    color: purple;
+    padding: 8px 16px;
+    border: purple solid 3px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.button {
+    margin-top: 16px;
+
+}
+
+.plus {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #ffb6b6;
+    color: purple;
+    text-align: center;
+    line-height: 60px;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.add-container {
+
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.add-box {
+    background-color: #ffb6b6;
+    padding: 32px;
+    border-radius: 8px;
+    border: 3px solid purple;
+    width: 50%;
+}
+
+.add-box select,
+.add-box input {
+    background-color: #ffb6b6;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 3px solid purple;
+    border-radius: 4px;
+    color: purple;
+    width: 100%;
+}
+
+.radio {
+    justify-content: center;
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.btn-group {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.table-box {
+    border: 3px solid purple;
+    border-radius: 20px;
+    overflow: hidden;
+    background: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+th {
+    color: purple;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+    color: purple;
+    font-weight: bold;
+    font-size: 18px;
+}
